@@ -1,0 +1,60 @@
+body, html{
+
+    margin: 0px auto;
+    padding: 0px;
+    background-image: url(images/berries.jpg);
+    background-color: gold;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+div{
+    width: 300px;
+    height: 600px;
+}
+
+.menu .logo{
+    color:rgb(22, 3, 3);
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: cursive;
+
+   /* box-shadow: 12px 12px 12px 12px goldenrod; */
+}
+
+#shop{
+    font-size: 40px;
+    color: royalblue;
+    
+}
+
+.berry{
+    list-style: none;
+}
+
+li{
+    color:rgb(84, 147, 219);
+    font-family: cursive;
+    padding: 10px 50px;
+    margin: 10px;
+    border-top-right-radius: 50px;
+    border: 3px solid white;
+    background-color: goldenrod;
+    
+}
+
+ui a{
+    text-decoration: none;
+}
+
+li#menu1:hover, li#menu2:hover, li#menu3:hover,
+li#menu4:hover, li#menu5:hover{
+    border: 5px solid red;
+}
+
