@@ -5,10 +5,10 @@ body, html{
     background-image: url(images/berries.jpg);
     background-color: gold;
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 
 
 }
@@ -56,5 +56,9 @@ ui a{
 li#menu1:hover, li#menu2:hover, li#menu3:hover,
 li#menu4:hover, li#menu5:hover{
     border: 5px solid red;
+}
+
+#copyR{
+    padding: 50px;
 }
 
